@@ -1,0 +1,719 @@
+
+Error: setting fieldcond without a source
+    at Field.addPseudoWeather (C:\Users\moksh\OneDrive\Documents\Moksh\pokemon-showdown\sim\field.ts:204:23)
+    at Battle.onBegin (C:\Users\moksh\OneDrive\Documents\Moksh\pokemon-showdown\config\formats.ts:90:15)
+    at Battle.start (C:\Users\moksh\OneDrive\Documents\Moksh\pokemon-showdown\sim\battle.ts:1677:38)
+    at Battle.setPlayer (C:\Users\moksh\OneDrive\Documents\Moksh\pokemon-showdown\sim\battle.ts:2846:75)
+    at RoomBattleStream._writeLine (C:\Users\moksh\OneDrive\Documents\Moksh\pokemon-showdown\sim\battle-stream.ts:111:17)
+    at RoomBattleStream._writeLines (C:\Users\moksh\OneDrive\Documents\Moksh\pokemon-showdown\sim\battle-stream.ts:78:10)
+    at RoomBattleStream._write (C:\Users\moksh\OneDrive\Documents\Moksh\pokemon-showdown\server\room-battle.ts:1322:9)
+    at RoomBattleStream.write (C:\Users\moksh\OneDrive\Documents\Moksh\pokemon-showdown\lib\streams.ts:836:15)
+    at process.<anonymous> (C:\Users\moksh\OneDrive\Documents\Moksh\pokemon-showdown\lib\process-manager.ts:660:17)
+    at process.emit (events.js:375:28)
+
+Additional information:
+  chunk = >player p2 {"name":"agagrgsr","avatar":"170","team":"Blissey|||NaturalCure|BrickBreak||,,252,,,|F||||","rating":0}
+  inputLog = 
+>start {"formatid":"gen8slowmons","seed":[28361,42352,9882,53821]}
+>player p1 {"name":"Champfernape","avatar":"266","team":"Trapinch|||SheerForce|BodySlam||,252,,,,|||||","rating":0}
+>player p2 {"name":"agagrgsr","avatar":"170","team":"Blissey|||NaturalCure|BrickBreak||,,252,,,|F||||","rating":0}
+  log = 
+|t:|1627125206
+|gametype|singles
+|player|p1|Champfernape|266|
+|player|p2|agagrgsr|170|
+|teamsize|p1|1
+|teamsize|p2|1
+|gen|8
+|tier|[Gen 8] Slowmons
+
+
+Error: setting weather without a source
+    at Field.setWeather (C:\Users\moksh\OneDrive\Documents\Moksh\pokemon-showdown\sim\field.ts:79:23)
+    at Battle.onBegin (C:\Users\moksh\OneDrive\Documents\Moksh\pokemon-showdown\config\formats.ts:90:15)
+    at Battle.start (C:\Users\moksh\OneDrive\Documents\Moksh\pokemon-showdown\sim\battle.ts:1677:38)
+    at Battle.setPlayer (C:\Users\moksh\OneDrive\Documents\Moksh\pokemon-showdown\sim\battle.ts:2846:75)
+    at RoomBattleStream._writeLine (C:\Users\moksh\OneDrive\Documents\Moksh\pokemon-showdown\sim\battle-stream.ts:111:17)
+    at RoomBattleStream._writeLines (C:\Users\moksh\OneDrive\Documents\Moksh\pokemon-showdown\sim\battle-stream.ts:78:10)
+    at RoomBattleStream._write (C:\Users\moksh\OneDrive\Documents\Moksh\pokemon-showdown\server\room-battle.ts:1322:9)
+    at RoomBattleStream.write (C:\Users\moksh\OneDrive\Documents\Moksh\pokemon-showdown\lib\streams.ts:836:15)
+    at process.<anonymous> (C:\Users\moksh\OneDrive\Documents\Moksh\pokemon-showdown\lib\process-manager.ts:660:17)
+    at process.emit (events.js:375:28)
+
+Additional information:
+  chunk = >player p2 {"name":"Champfernape","avatar":"169","team":"Trapinch|||SheerForce|BodySlam||,252,,,,|||||","rating":0}
+  inputLog = 
+>start {"formatid":"gen8slowmons","seed":[30651,22426,89,57371]}
+>player p1 {"name":"gragr2.0","avatar":"2","team":"Clefable||GhostMemory|CuteCharm|BodySlam||,252,,,,|||||","rating":0}
+>player p2 {"name":"Champfernape","avatar":"169","team":"Trapinch|||SheerForce|BodySlam||,252,,,,|||||","rating":0}
+  log = 
+|t:|1627125466
+|gametype|singles
+|player|p1|gragr2.0|2|
+|player|p2|Champfernape|169|
+|teamsize|p1|1
+|teamsize|p2|1
+|gen|8
+|tier|[Gen 8] Slowmons
+
+
+Error [ERR_IPC_DISCONNECTED]: IPC channel is already disconnected
+    at ChildProcess.target.disconnect (internal/child_process.js:865:26)
+    at QueryProcessWrapper.destroy (C:\Users\moksh\OneDrive\Documents\Moksh\pokemon-showdown\lib\process-manager.ts:184:16)
+    at QueryProcessWrapper.release (C:\Users\moksh\OneDrive\Documents\Moksh\pokemon-showdown\lib\process-manager.ts:170:9)
+    at QueryProcessManager.releaseCrashed (C:\Users\moksh\OneDrive\Documents\Moksh\pokemon-showdown\lib\process-manager.ts:438:16)
+    at ChildProcess.<anonymous> (C:\Users\moksh\OneDrive\Documents\Moksh\pokemon-showdown\lib\process-manager.ts:495:47)
+    at ChildProcess.emit (events.js:375:28)
+    at ChildProcess.emit (domain.js:470:12)
+    at finish (internal/child_process.js:895:14)
+    at processTicksAndRejections (internal/process/task_queues.js:77:11)
+
+Error [ERR_IPC_DISCONNECTED]: IPC channel is already disconnected
+    at ChildProcess.target.disconnect (internal/child_process.js:865:26)
+    at QueryProcessWrapper.destroy (C:\Users\moksh\OneDrive\Documents\Moksh\pokemon-showdown\lib\process-manager.ts:184:16)
+    at QueryProcessWrapper.release (C:\Users\moksh\OneDrive\Documents\Moksh\pokemon-showdown\lib\process-manager.ts:170:9)
+    at QueryProcessManager.releaseCrashed (C:\Users\moksh\OneDrive\Documents\Moksh\pokemon-showdown\lib\process-manager.ts:438:16)
+    at ChildProcess.<anonymous> (C:\Users\moksh\OneDrive\Documents\Moksh\pokemon-showdown\lib\process-manager.ts:495:47)
+    at ChildProcess.emit (events.js:375:28)
+    at ChildProcess.emit (domain.js:470:12)
+    at finish (internal/child_process.js:895:14)
+    at processTicksAndRejections (internal/process/task_queues.js:77:11)
+
+Error [ERR_IPC_DISCONNECTED]: IPC channel is already disconnected
+    at ChildProcess.target.disconnect (internal/child_process.js:865:26)
+    at QueryProcessWrapper.destroy (C:\Users\moksh\OneDrive\Documents\Moksh\pokemon-showdown\lib\process-manager.ts:184:16)
+    at QueryProcessWrapper.release (C:\Users\moksh\OneDrive\Documents\Moksh\pokemon-showdown\lib\process-manager.ts:170:9)
+    at QueryProcessManager.releaseCrashed (C:\Users\moksh\OneDrive\Documents\Moksh\pokemon-showdown\lib\process-manager.ts:438:16)
+    at ChildProcess.<anonymous> (C:\Users\moksh\OneDrive\Documents\Moksh\pokemon-showdown\lib\process-manager.ts:495:47)
+    at ChildProcess.emit (events.js:375:28)
+    at ChildProcess.emit (domain.js:470:12)
+    at finish (internal/child_process.js:895:14)
+    at processTicksAndRejections (internal/process/task_queues.js:77:11)
+
+Error [ERR_IPC_DISCONNECTED]: IPC channel is already disconnected
+    at ChildProcess.target.disconnect (internal/child_process.js:865:26)
+    at QueryProcessWrapper.destroy (C:\Users\moksh\OneDrive\Documents\Moksh\pokemon-showdown\lib\process-manager.ts:184:16)
+    at QueryProcessWrapper.release (C:\Users\moksh\OneDrive\Documents\Moksh\pokemon-showdown\lib\process-manager.ts:170:9)
+    at QueryProcessManager.releaseCrashed (C:\Users\moksh\OneDrive\Documents\Moksh\pokemon-showdown\lib\process-manager.ts:438:16)
+    at ChildProcess.<anonymous> (C:\Users\moksh\OneDrive\Documents\Moksh\pokemon-showdown\lib\process-manager.ts:495:47)
+    at ChildProcess.emit (events.js:375:28)
+    at ChildProcess.emit (domain.js:470:12)
+    at finish (internal/child_process.js:895:14)
+    at processTicksAndRejections (internal/process/task_queues.js:77:11)
+
+Error [ERR_IPC_DISCONNECTED]: IPC channel is already disconnected
+    at ChildProcess.target.disconnect (internal/child_process.js:865:26)
+    at QueryProcessWrapper.destroy (C:\Users\moksh\OneDrive\Documents\Moksh\pokemon-showdown\lib\process-manager.ts:184:16)
+    at QueryProcessWrapper.release (C:\Users\moksh\OneDrive\Documents\Moksh\pokemon-showdown\lib\process-manager.ts:170:9)
+    at QueryProcessManager.releaseCrashed (C:\Users\moksh\OneDrive\Documents\Moksh\pokemon-showdown\lib\process-manager.ts:438:16)
+    at ChildProcess.<anonymous> (C:\Users\moksh\OneDrive\Documents\Moksh\pokemon-showdown\lib\process-manager.ts:495:47)
+    at ChildProcess.emit (events.js:375:28)
+    at ChildProcess.emit (domain.js:470:12)
+    at finish (internal/child_process.js:895:14)
+    at processTicksAndRejections (internal/process/task_queues.js:77:11)
+
+Error [ERR_IPC_DISCONNECTED]: IPC channel is already disconnected
+    at ChildProcess.target.disconnect (internal/child_process.js:865:26)
+    at QueryProcessWrapper.destroy (C:\Users\moksh\OneDrive\Documents\Moksh\pokemon-showdown\lib\process-manager.ts:184:16)
+    at QueryProcessWrapper.release (C:\Users\moksh\OneDrive\Documents\Moksh\pokemon-showdown\lib\process-manager.ts:170:9)
+    at QueryProcessManager.releaseCrashed (C:\Users\moksh\OneDrive\Documents\Moksh\pokemon-showdown\lib\process-manager.ts:438:16)
+    at ChildProcess.<anonymous> (C:\Users\moksh\OneDrive\Documents\Moksh\pokemon-showdown\lib\process-manager.ts:495:47)
+    at ChildProcess.emit (events.js:375:28)
+    at ChildProcess.emit (domain.js:470:12)
+    at finish (internal/child_process.js:895:14)
+    at processTicksAndRejections (internal/process/task_queues.js:77:11)
+
+Error: Process sockets.ts 7828 crashed and had to be restarted
+    at RawProcessManager.releaseCrashed (C:\Users\moksh\OneDrive\Documents\Moksh\pokemon-showdown\lib\process-manager.ts:454:4)
+    at Worker.<anonymous> (C:\Users\moksh\OneDrive\Documents\Moksh\pokemon-showdown\lib\process-manager.ts:495:47)
+    at Worker.emit (events.js:375:28)
+    at Worker.emit (domain.js:470:12)
+    at ChildProcess.<anonymous> (internal/cluster/master.js:220:12)
+    at Object.onceWrapper (events.js:481:28)
+    at ChildProcess.emit (events.js:375:28)
+    at ChildProcess.emit (domain.js:470:12)
+    at finish (internal/child_process.js:895:14)
+    at processTicksAndRejections (internal/process/task_queues.js:77:11)
+
+Error [ERR_IPC_DISCONNECTED]: IPC channel is already disconnected
+    at ChildProcess.target.disconnect (internal/child_process.js:865:26)
+    at QueryProcessWrapper.destroy (C:\Users\moksh\OneDrive\Documents\Moksh\pokemon-showdown\lib\process-manager.ts:184:16)
+    at QueryProcessWrapper.release (C:\Users\moksh\OneDrive\Documents\Moksh\pokemon-showdown\lib\process-manager.ts:170:9)
+    at QueryProcessManager.releaseCrashed (C:\Users\moksh\OneDrive\Documents\Moksh\pokemon-showdown\lib\process-manager.ts:438:16)
+    at ChildProcess.<anonymous> (C:\Users\moksh\OneDrive\Documents\Moksh\pokemon-showdown\lib\process-manager.ts:495:47)
+    at ChildProcess.emit (events.js:375:28)
+    at ChildProcess.emit (domain.js:470:12)
+    at finish (internal/child_process.js:895:14)
+    at processTicksAndRejections (internal/process/task_queues.js:77:11)
+
+Error [ERR_IPC_DISCONNECTED]: IPC channel is already disconnected
+    at ChildProcess.target.disconnect (internal/child_process.js:865:26)
+    at QueryProcessWrapper.destroy (C:\Users\moksh\OneDrive\Documents\Moksh\pokemon-showdown\lib\process-manager.ts:184:16)
+    at QueryProcessWrapper.release (C:\Users\moksh\OneDrive\Documents\Moksh\pokemon-showdown\lib\process-manager.ts:170:9)
+    at QueryProcessManager.releaseCrashed (C:\Users\moksh\OneDrive\Documents\Moksh\pokemon-showdown\lib\process-manager.ts:438:16)
+    at ChildProcess.<anonymous> (C:\Users\moksh\OneDrive\Documents\Moksh\pokemon-showdown\lib\process-manager.ts:495:47)
+    at ChildProcess.emit (events.js:375:28)
+    at ChildProcess.emit (domain.js:470:12)
+    at finish (internal/child_process.js:895:14)
+    at processTicksAndRejections (internal/process/task_queues.js:77:11)
+
+Error: Process room-battle.ts 5124 crashed and had to be restarted
+    at StreamProcessManager.releaseCrashed (C:\Users\moksh\OneDrive\Documents\Moksh\pokemon-showdown\lib\process-manager.ts:454:4)
+    at ChildProcess.<anonymous> (C:\Users\moksh\OneDrive\Documents\Moksh\pokemon-showdown\lib\process-manager.ts:495:47)
+    at ChildProcess.emit (events.js:375:28)
+    at ChildProcess.emit (domain.js:470:12)
+    at finish (internal/child_process.js:895:14)
+    at processTicksAndRejections (internal/process/task_queues.js:77:11)
+
+Error [ERR_IPC_DISCONNECTED]: IPC channel is already disconnected
+    at ChildProcess.target.disconnect (internal/child_process.js:865:26)
+    at QueryProcessWrapper.destroy (C:\Users\moksh\OneDrive\Documents\Moksh\pokemon-showdown\lib\process-manager.ts:184:16)
+    at QueryProcessWrapper.release (C:\Users\moksh\OneDrive\Documents\Moksh\pokemon-showdown\lib\process-manager.ts:170:9)
+    at QueryProcessManager.releaseCrashed (C:\Users\moksh\OneDrive\Documents\Moksh\pokemon-showdown\lib\process-manager.ts:438:16)
+    at ChildProcess.<anonymous> (C:\Users\moksh\OneDrive\Documents\Moksh\pokemon-showdown\lib\process-manager.ts:495:47)
+    at ChildProcess.emit (events.js:375:28)
+    at ChildProcess.emit (domain.js:470:12)
+    at finish (internal/child_process.js:895:14)
+    at processTicksAndRejections (internal/process/task_queues.js:77:11)
+
+Error: setting weather without a source
+    at Field.setWeather (C:\Users\moksh\OneDrive\Documents\Moksh\pokemon-showdown\sim\field.ts:79:23)
+    at Battle.onBegin (C:\Users\moksh\OneDrive\Documents\Moksh\pokemon-showdown\config\formats.ts:90:15)
+    at Battle.start (C:\Users\moksh\OneDrive\Documents\Moksh\pokemon-showdown\sim\battle.ts:1677:38)
+    at Battle.setPlayer (C:\Users\moksh\OneDrive\Documents\Moksh\pokemon-showdown\sim\battle.ts:2849:75)
+    at RoomBattleStream._writeLine (C:\Users\moksh\OneDrive\Documents\Moksh\pokemon-showdown\sim\battle-stream.ts:111:17)
+    at RoomBattleStream._writeLines (C:\Users\moksh\OneDrive\Documents\Moksh\pokemon-showdown\sim\battle-stream.ts:78:10)
+    at RoomBattleStream._write (C:\Users\moksh\OneDrive\Documents\Moksh\pokemon-showdown\server\room-battle.ts:1322:9)
+    at RoomBattleStream.write (C:\Users\moksh\OneDrive\Documents\Moksh\pokemon-showdown\lib\streams.ts:836:15)
+    at process.<anonymous> (C:\Users\moksh\OneDrive\Documents\Moksh\pokemon-showdown\lib\process-manager.ts:660:17)
+    at process.emit (events.js:375:28)
+
+Additional information:
+  chunk = >player p2 {"name":"Champfernape","avatar":"170","team":"Zigzagoon|||Pickup|DoubleEdge||,,,,,80|||||","rating":0}
+  inputLog = 
+>start {"formatid":"gen8slowmons","seed":[21803,3956,57452,217]}
+>player p1 {"name":"zvdsgagr","avatar":"265","team":"Clefable||GhostMemory|CuteCharm|BodySlam||,252,,,,|||||","rating":0}
+>player p2 {"name":"Champfernape","avatar":"170","team":"Zigzagoon|||Pickup|DoubleEdge||,,,,,80|||||","rating":0}
+  log = 
+|t:|1627127930
+|gametype|singles
+|player|p1|zvdsgagr|265|
+|player|p2|Champfernape|170|
+|teamsize|p1|1
+|teamsize|p2|1
+|gen|8
+|tier|[Gen 8] Slowmons
+
+
+Error [ERR_IPC_DISCONNECTED]: IPC channel is already disconnected
+    at ChildProcess.target.disconnect (internal/child_process.js:865:26)
+    at QueryProcessWrapper.destroy (C:\Users\moksh\OneDrive\Documents\Moksh\pokemon-showdown\lib\process-manager.ts:184:16)
+    at QueryProcessWrapper.release (C:\Users\moksh\OneDrive\Documents\Moksh\pokemon-showdown\lib\process-manager.ts:170:9)
+    at QueryProcessManager.releaseCrashed (C:\Users\moksh\OneDrive\Documents\Moksh\pokemon-showdown\lib\process-manager.ts:438:16)
+    at ChildProcess.<anonymous> (C:\Users\moksh\OneDrive\Documents\Moksh\pokemon-showdown\lib\process-manager.ts:495:47)
+    at ChildProcess.emit (events.js:375:28)
+    at ChildProcess.emit (domain.js:470:12)
+    at finish (internal/child_process.js:895:14)
+    at processTicksAndRejections (internal/process/task_queues.js:77:11)
+
+Error [ERR_IPC_DISCONNECTED]: IPC channel is already disconnected
+    at ChildProcess.target.disconnect (internal/child_process.js:865:26)
+    at QueryProcessWrapper.destroy (C:\Users\moksh\OneDrive\Documents\Moksh\pokemon-showdown\lib\process-manager.ts:184:16)
+    at QueryProcessWrapper.release (C:\Users\moksh\OneDrive\Documents\Moksh\pokemon-showdown\lib\process-manager.ts:170:9)
+    at QueryProcessManager.releaseCrashed (C:\Users\moksh\OneDrive\Documents\Moksh\pokemon-showdown\lib\process-manager.ts:438:16)
+    at ChildProcess.<anonymous> (C:\Users\moksh\OneDrive\Documents\Moksh\pokemon-showdown\lib\process-manager.ts:495:47)
+    at ChildProcess.emit (events.js:375:28)
+    at ChildProcess.emit (domain.js:470:12)
+    at finish (internal/child_process.js:895:14)
+    at processTicksAndRejections (internal/process/task_queues.js:77:11)
+
+Error [ERR_IPC_DISCONNECTED]: IPC channel is already disconnected
+    at ChildProcess.target.disconnect (internal/child_process.js:865:26)
+    at QueryProcessWrapper.destroy (C:\Users\moksh\OneDrive\Documents\Moksh\pokemon-showdown\lib\process-manager.ts:184:16)
+    at QueryProcessWrapper.release (C:\Users\moksh\OneDrive\Documents\Moksh\pokemon-showdown\lib\process-manager.ts:170:9)
+    at QueryProcessManager.releaseCrashed (C:\Users\moksh\OneDrive\Documents\Moksh\pokemon-showdown\lib\process-manager.ts:438:16)
+    at ChildProcess.<anonymous> (C:\Users\moksh\OneDrive\Documents\Moksh\pokemon-showdown\lib\process-manager.ts:495:47)
+    at ChildProcess.emit (events.js:375:28)
+    at ChildProcess.emit (domain.js:470:12)
+    at finish (internal/child_process.js:895:14)
+    at processTicksAndRejections (internal/process/task_queues.js:77:11)
+
+Error [ERR_IPC_DISCONNECTED]: IPC channel is already disconnected
+    at ChildProcess.target.disconnect (internal/child_process.js:865:26)
+    at QueryProcessWrapper.destroy (C:\Users\moksh\OneDrive\Documents\Moksh\pokemon-showdown\lib\process-manager.ts:184:16)
+    at QueryProcessWrapper.release (C:\Users\moksh\OneDrive\Documents\Moksh\pokemon-showdown\lib\process-manager.ts:170:9)
+    at QueryProcessManager.releaseCrashed (C:\Users\moksh\OneDrive\Documents\Moksh\pokemon-showdown\lib\process-manager.ts:438:16)
+    at ChildProcess.<anonymous> (C:\Users\moksh\OneDrive\Documents\Moksh\pokemon-showdown\lib\process-manager.ts:495:47)
+    at ChildProcess.emit (events.js:375:28)
+    at ChildProcess.emit (domain.js:470:12)
+    at finish (internal/child_process.js:895:14)
+    at processTicksAndRejections (internal/process/task_queues.js:77:11)
+
+Error [ERR_IPC_DISCONNECTED]: IPC channel is already disconnected
+    at ChildProcess.target.disconnect (internal/child_process.js:865:26)
+    at QueryProcessWrapper.destroy (C:\Users\moksh\OneDrive\Documents\Moksh\pokemon-showdown\lib\process-manager.ts:184:16)
+    at QueryProcessWrapper.release (C:\Users\moksh\OneDrive\Documents\Moksh\pokemon-showdown\lib\process-manager.ts:170:9)
+    at QueryProcessManager.releaseCrashed (C:\Users\moksh\OneDrive\Documents\Moksh\pokemon-showdown\lib\process-manager.ts:438:16)
+    at ChildProcess.<anonymous> (C:\Users\moksh\OneDrive\Documents\Moksh\pokemon-showdown\lib\process-manager.ts:495:47)
+    at ChildProcess.emit (events.js:375:28)
+    at ChildProcess.emit (domain.js:470:12)
+    at finish (internal/child_process.js:895:14)
+    at processTicksAndRejections (internal/process/task_queues.js:77:11)
+
+Error [ERR_IPC_DISCONNECTED]: IPC channel is already disconnected
+    at ChildProcess.target.disconnect (internal/child_process.js:865:26)
+    at QueryProcessWrapper.destroy (C:\Users\moksh\OneDrive\Documents\Moksh\pokemon-showdown\lib\process-manager.ts:184:16)
+    at QueryProcessWrapper.release (C:\Users\moksh\OneDrive\Documents\Moksh\pokemon-showdown\lib\process-manager.ts:170:9)
+    at QueryProcessManager.releaseCrashed (C:\Users\moksh\OneDrive\Documents\Moksh\pokemon-showdown\lib\process-manager.ts:438:16)
+    at ChildProcess.<anonymous> (C:\Users\moksh\OneDrive\Documents\Moksh\pokemon-showdown\lib\process-manager.ts:495:47)
+    at ChildProcess.emit (events.js:375:28)
+    at ChildProcess.emit (domain.js:470:12)
+    at finish (internal/child_process.js:895:14)
+    at processTicksAndRejections (internal/process/task_queues.js:77:11)
+
+TypeError: Cannot read property 'then' of null
+    at RawProcessManager.releaseCrashed (C:\Users\moksh\OneDrive\Documents\Moksh\pokemon-showdown\lib\process-manager.ts:438:23)
+    at Worker.<anonymous> (C:\Users\moksh\OneDrive\Documents\Moksh\pokemon-showdown\lib\process-manager.ts:495:47)
+    at Worker.emit (events.js:375:28)
+    at Worker.emit (domain.js:470:12)
+    at ChildProcess.<anonymous> (internal/cluster/master.js:220:12)
+    at Object.onceWrapper (events.js:481:28)
+    at ChildProcess.emit (events.js:375:28)
+    at ChildProcess.emit (domain.js:470:12)
+    at finish (internal/child_process.js:895:14)
+    at processTicksAndRejections (internal/process/task_queues.js:77:11)
+
+Error [ERR_IPC_DISCONNECTED]: IPC channel is already disconnected
+    at ChildProcess.target.disconnect (internal/child_process.js:865:26)
+    at QueryProcessWrapper.destroy (C:\Users\moksh\OneDrive\Documents\Moksh\pokemon-showdown\lib\process-manager.ts:184:16)
+    at QueryProcessWrapper.release (C:\Users\moksh\OneDrive\Documents\Moksh\pokemon-showdown\lib\process-manager.ts:170:9)
+    at QueryProcessManager.releaseCrashed (C:\Users\moksh\OneDrive\Documents\Moksh\pokemon-showdown\lib\process-manager.ts:438:16)
+    at ChildProcess.<anonymous> (C:\Users\moksh\OneDrive\Documents\Moksh\pokemon-showdown\lib\process-manager.ts:495:47)
+    at ChildProcess.emit (events.js:375:28)
+    at ChildProcess.emit (domain.js:470:12)
+    at finish (internal/child_process.js:895:14)
+    at processTicksAndRejections (internal/process/task_queues.js:77:11)
+
+Error [ERR_IPC_DISCONNECTED]: IPC channel is already disconnected
+    at ChildProcess.target.disconnect (internal/child_process.js:865:26)
+    at QueryProcessWrapper.destroy (C:\Users\moksh\OneDrive\Documents\Moksh\pokemon-showdown\lib\process-manager.ts:184:16)
+    at QueryProcessWrapper.release (C:\Users\moksh\OneDrive\Documents\Moksh\pokemon-showdown\lib\process-manager.ts:170:9)
+    at QueryProcessManager.releaseCrashed (C:\Users\moksh\OneDrive\Documents\Moksh\pokemon-showdown\lib\process-manager.ts:438:16)
+    at ChildProcess.<anonymous> (C:\Users\moksh\OneDrive\Documents\Moksh\pokemon-showdown\lib\process-manager.ts:495:47)
+    at ChildProcess.emit (events.js:375:28)
+    at ChildProcess.emit (domain.js:470:12)
+    at finish (internal/child_process.js:895:14)
+    at processTicksAndRejections (internal/process/task_queues.js:77:11)
+
+Error [ERR_IPC_DISCONNECTED]: IPC channel is already disconnected
+    at ChildProcess.target.disconnect (internal/child_process.js:865:26)
+    at StreamProcessWrapper.destroy (C:\Users\moksh\OneDrive\Documents\Moksh\pokemon-showdown\lib\process-manager.ts:301:16)
+    at StreamProcessWrapper.release (C:\Users\moksh\OneDrive\Documents\Moksh\pokemon-showdown\lib\process-manager.ts:287:14)
+    at StreamProcessManager.releaseCrashed (C:\Users\moksh\OneDrive\Documents\Moksh\pokemon-showdown\lib\process-manager.ts:438:16)
+    at ChildProcess.<anonymous> (C:\Users\moksh\OneDrive\Documents\Moksh\pokemon-showdown\lib\process-manager.ts:495:47)
+    at ChildProcess.emit (events.js:375:28)
+    at ChildProcess.emit (domain.js:470:12)
+    at finish (internal/child_process.js:895:14)
+    at processTicksAndRejections (internal/process/task_queues.js:77:11)
+
+Error [ERR_IPC_DISCONNECTED]: IPC channel is already disconnected
+    at ChildProcess.target.disconnect (internal/child_process.js:865:26)
+    at QueryProcessWrapper.destroy (C:\Users\moksh\OneDrive\Documents\Moksh\pokemon-showdown\lib\process-manager.ts:184:16)
+    at QueryProcessWrapper.release (C:\Users\moksh\OneDrive\Documents\Moksh\pokemon-showdown\lib\process-manager.ts:170:9)
+    at QueryProcessManager.releaseCrashed (C:\Users\moksh\OneDrive\Documents\Moksh\pokemon-showdown\lib\process-manager.ts:438:16)
+    at ChildProcess.<anonymous> (C:\Users\moksh\OneDrive\Documents\Moksh\pokemon-showdown\lib\process-manager.ts:495:47)
+    at ChildProcess.emit (events.js:375:28)
+    at ChildProcess.emit (domain.js:470:12)
+    at finish (internal/child_process.js:895:14)
+    at processTicksAndRejections (internal/process/task_queues.js:77:11)
+
+Error [ERR_IPC_DISCONNECTED]: IPC channel is already disconnected
+    at ChildProcess.target.disconnect (internal/child_process.js:865:26)
+    at QueryProcessWrapper.destroy (C:\Users\moksh\OneDrive\Documents\Moksh\pokemon-showdown\lib\process-manager.ts:184:16)
+    at QueryProcessWrapper.release (C:\Users\moksh\OneDrive\Documents\Moksh\pokemon-showdown\lib\process-manager.ts:170:9)
+    at QueryProcessManager.releaseCrashed (C:\Users\moksh\OneDrive\Documents\Moksh\pokemon-showdown\lib\process-manager.ts:438:16)
+    at ChildProcess.<anonymous> (C:\Users\moksh\OneDrive\Documents\Moksh\pokemon-showdown\lib\process-manager.ts:495:47)
+    at ChildProcess.emit (events.js:375:28)
+    at ChildProcess.emit (domain.js:470:12)
+    at finish (internal/child_process.js:895:14)
+    at processTicksAndRejections (internal/process/task_queues.js:77:11)
+
+Error [ERR_IPC_DISCONNECTED]: IPC channel is already disconnected
+    at ChildProcess.target.disconnect (internal/child_process.js:865:26)
+    at QueryProcessWrapper.destroy (C:\Users\moksh\OneDrive\Documents\Moksh\pokemon-showdown\lib\process-manager.ts:184:16)
+    at QueryProcessWrapper.release (C:\Users\moksh\OneDrive\Documents\Moksh\pokemon-showdown\lib\process-manager.ts:170:9)
+    at QueryProcessManager.releaseCrashed (C:\Users\moksh\OneDrive\Documents\Moksh\pokemon-showdown\lib\process-manager.ts:438:16)
+    at ChildProcess.<anonymous> (C:\Users\moksh\OneDrive\Documents\Moksh\pokemon-showdown\lib\process-manager.ts:495:47)
+    at ChildProcess.emit (events.js:375:28)
+    at ChildProcess.emit (domain.js:470:12)
+    at finish (internal/child_process.js:895:14)
+    at processTicksAndRejections (internal/process/task_queues.js:77:11)
+
+Error [ERR_IPC_DISCONNECTED]: IPC channel is already disconnected
+    at ChildProcess.target.disconnect (internal/child_process.js:865:26)
+    at QueryProcessWrapper.destroy (C:\Users\moksh\OneDrive\Documents\Moksh\pokemon-showdown\lib\process-manager.ts:184:16)
+    at QueryProcessWrapper.release (C:\Users\moksh\OneDrive\Documents\Moksh\pokemon-showdown\lib\process-manager.ts:170:9)
+    at QueryProcessManager.releaseCrashed (C:\Users\moksh\OneDrive\Documents\Moksh\pokemon-showdown\lib\process-manager.ts:438:16)
+    at ChildProcess.<anonymous> (C:\Users\moksh\OneDrive\Documents\Moksh\pokemon-showdown\lib\process-manager.ts:495:47)
+    at ChildProcess.emit (events.js:375:28)
+    at ChildProcess.emit (domain.js:470:12)
+    at finish (internal/child_process.js:895:14)
+    at processTicksAndRejections (internal/process/task_queues.js:77:11)
+
+Error [ERR_IPC_DISCONNECTED]: IPC channel is already disconnected
+    at ChildProcess.target.disconnect (internal/child_process.js:865:26)
+    at QueryProcessWrapper.destroy (C:\Users\moksh\OneDrive\Documents\Moksh\pokemon-showdown\lib\process-manager.ts:184:16)
+    at QueryProcessWrapper.release (C:\Users\moksh\OneDrive\Documents\Moksh\pokemon-showdown\lib\process-manager.ts:170:9)
+    at QueryProcessManager.releaseCrashed (C:\Users\moksh\OneDrive\Documents\Moksh\pokemon-showdown\lib\process-manager.ts:438:16)
+    at ChildProcess.<anonymous> (C:\Users\moksh\OneDrive\Documents\Moksh\pokemon-showdown\lib\process-manager.ts:495:47)
+    at ChildProcess.emit (events.js:375:28)
+    at ChildProcess.emit (domain.js:470:12)
+    at finish (internal/child_process.js:895:14)
+    at processTicksAndRejections (internal/process/task_queues.js:77:11)
+
+Error [ERR_IPC_DISCONNECTED]: IPC channel is already disconnected
+    at ChildProcess.target.disconnect (internal/child_process.js:865:26)
+    at QueryProcessWrapper.destroy (C:\Users\moksh\OneDrive\Documents\Moksh\pokemon-showdown\lib\process-manager.ts:184:16)
+    at QueryProcessWrapper.release (C:\Users\moksh\OneDrive\Documents\Moksh\pokemon-showdown\lib\process-manager.ts:170:9)
+    at QueryProcessManager.releaseCrashed (C:\Users\moksh\OneDrive\Documents\Moksh\pokemon-showdown\lib\process-manager.ts:438:16)
+    at ChildProcess.<anonymous> (C:\Users\moksh\OneDrive\Documents\Moksh\pokemon-showdown\lib\process-manager.ts:495:47)
+    at ChildProcess.emit (events.js:375:28)
+    at ChildProcess.emit (domain.js:470:12)
+    at finish (internal/child_process.js:895:14)
+    at processTicksAndRejections (internal/process/task_queues.js:77:11)
+
+Error [ERR_IPC_DISCONNECTED]: IPC channel is already disconnected
+    at ChildProcess.target.disconnect (internal/child_process.js:865:26)
+    at QueryProcessWrapper.destroy (C:\Users\moksh\OneDrive\Documents\Moksh\pokemon-showdown\lib\process-manager.ts:184:16)
+    at QueryProcessWrapper.release (C:\Users\moksh\OneDrive\Documents\Moksh\pokemon-showdown\lib\process-manager.ts:170:9)
+    at QueryProcessManager.releaseCrashed (C:\Users\moksh\OneDrive\Documents\Moksh\pokemon-showdown\lib\process-manager.ts:438:16)
+    at ChildProcess.<anonymous> (C:\Users\moksh\OneDrive\Documents\Moksh\pokemon-showdown\lib\process-manager.ts:495:47)
+    at ChildProcess.emit (events.js:375:28)
+    at ChildProcess.emit (domain.js:470:12)
+    at finish (internal/child_process.js:895:14)
+    at processTicksAndRejections (internal/process/task_queues.js:77:11)
+
+TypeError: Cannot read property 'then' of null
+    at RawProcessManager.releaseCrashed (C:\Users\moksh\OneDrive\Documents\Moksh\pokemon-showdown\lib\process-manager.ts:438:23)
+    at Worker.<anonymous> (C:\Users\moksh\OneDrive\Documents\Moksh\pokemon-showdown\lib\process-manager.ts:495:47)
+    at Worker.emit (events.js:375:28)
+    at Worker.emit (domain.js:470:12)
+    at ChildProcess.<anonymous> (internal/cluster/master.js:220:12)
+    at Object.onceWrapper (events.js:481:28)
+    at ChildProcess.emit (events.js:375:28)
+    at ChildProcess.emit (domain.js:470:12)
+    at finish (internal/child_process.js:895:14)
+    at processTicksAndRejections (internal/process/task_queues.js:77:11)
+
+Error [ERR_IPC_DISCONNECTED]: IPC channel is already disconnected
+    at ChildProcess.target.disconnect (internal/child_process.js:865:26)
+    at QueryProcessWrapper.destroy (C:\Users\moksh\OneDrive\Documents\Moksh\pokemon-showdown\lib\process-manager.ts:184:16)
+    at QueryProcessWrapper.release (C:\Users\moksh\OneDrive\Documents\Moksh\pokemon-showdown\lib\process-manager.ts:170:9)
+    at QueryProcessManager.releaseCrashed (C:\Users\moksh\OneDrive\Documents\Moksh\pokemon-showdown\lib\process-manager.ts:438:16)
+    at ChildProcess.<anonymous> (C:\Users\moksh\OneDrive\Documents\Moksh\pokemon-showdown\lib\process-manager.ts:495:47)
+    at ChildProcess.emit (events.js:375:28)
+    at ChildProcess.emit (domain.js:470:12)
+    at finish (internal/child_process.js:895:14)
+    at processTicksAndRejections (internal/process/task_queues.js:77:11)
+
+Error: Process room-battle.ts 9800 crashed and had to be restarted
+    at StreamProcessManager.releaseCrashed (C:\Users\moksh\OneDrive\Documents\Moksh\pokemon-showdown\lib\process-manager.ts:454:4)
+    at ChildProcess.<anonymous> (C:\Users\moksh\OneDrive\Documents\Moksh\pokemon-showdown\lib\process-manager.ts:495:47)
+    at ChildProcess.emit (events.js:375:28)
+    at ChildProcess.emit (domain.js:470:12)
+    at finish (internal/child_process.js:895:14)
+    at processTicksAndRejections (internal/process/task_queues.js:77:11)
+
+Error [ERR_IPC_DISCONNECTED]: IPC channel is already disconnected
+    at ChildProcess.target.disconnect (internal/child_process.js:865:26)
+    at QueryProcessWrapper.destroy (C:\Users\moksh\OneDrive\Documents\Moksh\pokemon-showdown\lib\process-manager.ts:184:16)
+    at QueryProcessWrapper.release (C:\Users\moksh\OneDrive\Documents\Moksh\pokemon-showdown\lib\process-manager.ts:170:9)
+    at QueryProcessManager.releaseCrashed (C:\Users\moksh\OneDrive\Documents\Moksh\pokemon-showdown\lib\process-manager.ts:438:16)
+    at ChildProcess.<anonymous> (C:\Users\moksh\OneDrive\Documents\Moksh\pokemon-showdown\lib\process-manager.ts:495:47)
+    at ChildProcess.emit (events.js:375:28)
+    at ChildProcess.emit (domain.js:470:12)
+    at finish (internal/child_process.js:895:14)
+    at processTicksAndRejections (internal/process/task_queues.js:77:11)
+
+Error [ERR_IPC_DISCONNECTED]: IPC channel is already disconnected
+    at ChildProcess.target.disconnect (internal/child_process.js:865:26)
+    at QueryProcessWrapper.destroy (C:\Users\moksh\OneDrive\Documents\Moksh\pokemon-showdown\lib\process-manager.ts:184:16)
+    at QueryProcessWrapper.release (C:\Users\moksh\OneDrive\Documents\Moksh\pokemon-showdown\lib\process-manager.ts:170:9)
+    at QueryProcessManager.releaseCrashed (C:\Users\moksh\OneDrive\Documents\Moksh\pokemon-showdown\lib\process-manager.ts:438:16)
+    at ChildProcess.<anonymous> (C:\Users\moksh\OneDrive\Documents\Moksh\pokemon-showdown\lib\process-manager.ts:495:47)
+    at ChildProcess.emit (events.js:375:28)
+    at ChildProcess.emit (domain.js:470:12)
+    at finish (internal/child_process.js:895:14)
+    at processTicksAndRejections (internal/process/task_queues.js:77:11)
+
+Error: EBUSY: resource busy or locked, rename 'C:\Users\moksh\OneDrive\Documents\Moksh\pokemon-showdown\config\chat-plugins\the-studio.json.NEW' -> 'C:\Users\moksh\OneDrive\Documents\Moksh\pokemon-showdown\config\chat-plugins\the-studio.json'
+
+Error [ERR_IPC_DISCONNECTED]: IPC channel is already disconnected
+    at ChildProcess.target.disconnect (internal/child_process.js:865:26)
+    at QueryProcessWrapper.destroy (C:\Users\moksh\OneDrive\Documents\Moksh\pokemon-showdown\lib\process-manager.ts:184:16)
+    at QueryProcessWrapper.release (C:\Users\moksh\OneDrive\Documents\Moksh\pokemon-showdown\lib\process-manager.ts:170:9)
+    at QueryProcessManager.releaseCrashed (C:\Users\moksh\OneDrive\Documents\Moksh\pokemon-showdown\lib\process-manager.ts:438:16)
+    at ChildProcess.<anonymous> (C:\Users\moksh\OneDrive\Documents\Moksh\pokemon-showdown\lib\process-manager.ts:495:47)
+    at ChildProcess.emit (events.js:375:28)
+    at ChildProcess.emit (domain.js:470:12)
+    at finish (internal/child_process.js:895:14)
+    at processTicksAndRejections (internal/process/task_queues.js:77:11)
+
+Error [ERR_IPC_DISCONNECTED]: IPC channel is already disconnected
+    at ChildProcess.target.disconnect (internal/child_process.js:865:26)
+    at QueryProcessWrapper.destroy (C:\Users\moksh\OneDrive\Documents\Moksh\pokemon-showdown\lib\process-manager.ts:184:16)
+    at QueryProcessWrapper.release (C:\Users\moksh\OneDrive\Documents\Moksh\pokemon-showdown\lib\process-manager.ts:170:9)
+    at QueryProcessManager.releaseCrashed (C:\Users\moksh\OneDrive\Documents\Moksh\pokemon-showdown\lib\process-manager.ts:438:16)
+    at ChildProcess.<anonymous> (C:\Users\moksh\OneDrive\Documents\Moksh\pokemon-showdown\lib\process-manager.ts:495:47)
+    at ChildProcess.emit (events.js:375:28)
+    at ChildProcess.emit (domain.js:470:12)
+    at finish (internal/child_process.js:895:14)
+    at processTicksAndRejections (internal/process/task_queues.js:77:11)
+
+Error [ERR_IPC_DISCONNECTED]: IPC channel is already disconnected
+    at ChildProcess.target.disconnect (internal/child_process.js:865:26)
+    at QueryProcessWrapper.destroy (C:\Users\moksh\OneDrive\Documents\Moksh\pokemon-showdown\lib\process-manager.ts:184:16)
+    at QueryProcessWrapper.release (C:\Users\moksh\OneDrive\Documents\Moksh\pokemon-showdown\lib\process-manager.ts:170:9)
+    at QueryProcessManager.releaseCrashed (C:\Users\moksh\OneDrive\Documents\Moksh\pokemon-showdown\lib\process-manager.ts:438:16)
+    at ChildProcess.<anonymous> (C:\Users\moksh\OneDrive\Documents\Moksh\pokemon-showdown\lib\process-manager.ts:495:47)
+    at ChildProcess.emit (events.js:375:28)
+    at ChildProcess.emit (domain.js:470:12)
+    at finish (internal/child_process.js:895:14)
+    at processTicksAndRejections (internal/process/task_queues.js:77:11)
+
+Error [ERR_IPC_DISCONNECTED]: IPC channel is already disconnected
+    at ChildProcess.target.disconnect (internal/child_process.js:865:26)
+    at QueryProcessWrapper.destroy (C:\Users\moksh\OneDrive\Documents\Moksh\pokemon-showdown\lib\process-manager.ts:184:16)
+    at QueryProcessWrapper.release (C:\Users\moksh\OneDrive\Documents\Moksh\pokemon-showdown\lib\process-manager.ts:170:9)
+    at QueryProcessManager.releaseCrashed (C:\Users\moksh\OneDrive\Documents\Moksh\pokemon-showdown\lib\process-manager.ts:438:16)
+    at ChildProcess.<anonymous> (C:\Users\moksh\OneDrive\Documents\Moksh\pokemon-showdown\lib\process-manager.ts:495:47)
+    at ChildProcess.emit (events.js:375:28)
+    at ChildProcess.emit (domain.js:470:12)
+    at finish (internal/child_process.js:895:14)
+    at processTicksAndRejections (internal/process/task_queues.js:77:11)
+
+Error [ERR_IPC_DISCONNECTED]: IPC channel is already disconnected
+    at ChildProcess.target.disconnect (internal/child_process.js:865:26)
+    at QueryProcessWrapper.destroy (C:\Users\moksh\OneDrive\Documents\Moksh\pokemon-showdown\lib\process-manager.ts:184:16)
+    at QueryProcessWrapper.release (C:\Users\moksh\OneDrive\Documents\Moksh\pokemon-showdown\lib\process-manager.ts:170:9)
+    at QueryProcessManager.releaseCrashed (C:\Users\moksh\OneDrive\Documents\Moksh\pokemon-showdown\lib\process-manager.ts:438:16)
+    at ChildProcess.<anonymous> (C:\Users\moksh\OneDrive\Documents\Moksh\pokemon-showdown\lib\process-manager.ts:495:47)
+    at ChildProcess.emit (events.js:375:28)
+    at ChildProcess.emit (domain.js:470:12)
+    at finish (internal/child_process.js:895:14)
+    at processTicksAndRejections (internal/process/task_queues.js:77:11)
+
+TypeError: Cannot read property 'then' of null
+    at RawProcessManager.releaseCrashed (C:\Users\moksh\OneDrive\Documents\Moksh\pokemon-showdown\lib\process-manager.ts:438:23)
+    at Worker.<anonymous> (C:\Users\moksh\OneDrive\Documents\Moksh\pokemon-showdown\lib\process-manager.ts:495:47)
+    at Worker.emit (events.js:375:28)
+    at Worker.emit (domain.js:470:12)
+    at ChildProcess.<anonymous> (internal/cluster/master.js:220:12)
+    at Object.onceWrapper (events.js:481:28)
+    at ChildProcess.emit (events.js:375:28)
+    at ChildProcess.emit (domain.js:470:12)
+    at finish (internal/child_process.js:895:14)
+    at processTicksAndRejections (internal/process/task_queues.js:77:11)
+
+Error [ERR_IPC_DISCONNECTED]: IPC channel is already disconnected
+    at ChildProcess.target.disconnect (internal/child_process.js:865:26)
+    at QueryProcessWrapper.destroy (C:\Users\moksh\OneDrive\Documents\Moksh\pokemon-showdown\lib\process-manager.ts:184:16)
+    at QueryProcessWrapper.release (C:\Users\moksh\OneDrive\Documents\Moksh\pokemon-showdown\lib\process-manager.ts:170:9)
+    at QueryProcessManager.releaseCrashed (C:\Users\moksh\OneDrive\Documents\Moksh\pokemon-showdown\lib\process-manager.ts:438:16)
+    at ChildProcess.<anonymous> (C:\Users\moksh\OneDrive\Documents\Moksh\pokemon-showdown\lib\process-manager.ts:495:47)
+    at ChildProcess.emit (events.js:375:28)
+    at ChildProcess.emit (domain.js:470:12)
+    at finish (internal/child_process.js:895:14)
+    at processTicksAndRejections (internal/process/task_queues.js:77:11)
+
+Error [ERR_IPC_DISCONNECTED]: IPC channel is already disconnected
+    at ChildProcess.target.disconnect (internal/child_process.js:865:26)
+    at QueryProcessWrapper.destroy (C:\Users\moksh\OneDrive\Documents\Moksh\pokemon-showdown\lib\process-manager.ts:184:16)
+    at QueryProcessWrapper.release (C:\Users\moksh\OneDrive\Documents\Moksh\pokemon-showdown\lib\process-manager.ts:170:9)
+    at QueryProcessManager.releaseCrashed (C:\Users\moksh\OneDrive\Documents\Moksh\pokemon-showdown\lib\process-manager.ts:438:16)
+    at ChildProcess.<anonymous> (C:\Users\moksh\OneDrive\Documents\Moksh\pokemon-showdown\lib\process-manager.ts:495:47)
+    at ChildProcess.emit (events.js:375:28)
+    at ChildProcess.emit (domain.js:470:12)
+    at finish (internal/child_process.js:895:14)
+    at processTicksAndRejections (internal/process/task_queues.js:77:11)
+
+Error: Process room-battle.ts 17016 crashed and had to be restarted
+    at StreamProcessManager.releaseCrashed (C:\Users\moksh\OneDrive\Documents\Moksh\pokemon-showdown\lib\process-manager.ts:454:4)
+    at ChildProcess.<anonymous> (C:\Users\moksh\OneDrive\Documents\Moksh\pokemon-showdown\lib\process-manager.ts:495:47)
+    at ChildProcess.emit (events.js:375:28)
+    at ChildProcess.emit (domain.js:470:12)
+    at finish (internal/child_process.js:895:14)
+    at processTicksAndRejections (internal/process/task_queues.js:77:11)
+
+Error [ERR_IPC_DISCONNECTED]: IPC channel is already disconnected
+    at ChildProcess.target.disconnect (internal/child_process.js:865:26)
+    at QueryProcessWrapper.destroy (C:\Users\moksh\OneDrive\Documents\Moksh\pokemon-showdown\lib\process-manager.ts:184:16)
+    at QueryProcessWrapper.release (C:\Users\moksh\OneDrive\Documents\Moksh\pokemon-showdown\lib\process-manager.ts:170:9)
+    at QueryProcessManager.releaseCrashed (C:\Users\moksh\OneDrive\Documents\Moksh\pokemon-showdown\lib\process-manager.ts:438:16)
+    at ChildProcess.<anonymous> (C:\Users\moksh\OneDrive\Documents\Moksh\pokemon-showdown\lib\process-manager.ts:495:47)
+    at ChildProcess.emit (events.js:375:28)
+    at ChildProcess.emit (domain.js:470:12)
+    at finish (internal/child_process.js:895:14)
+    at processTicksAndRejections (internal/process/task_queues.js:77:11)
+
+Error [ERR_IPC_DISCONNECTED]: IPC channel is already disconnected
+    at ChildProcess.target.disconnect (internal/child_process.js:865:26)
+    at QueryProcessWrapper.destroy (C:\Users\moksh\OneDrive\Documents\Moksh\pokemon-showdown\lib\process-manager.ts:184:16)
+    at QueryProcessWrapper.release (C:\Users\moksh\OneDrive\Documents\Moksh\pokemon-showdown\lib\process-manager.ts:170:9)
+    at QueryProcessManager.releaseCrashed (C:\Users\moksh\OneDrive\Documents\Moksh\pokemon-showdown\lib\process-manager.ts:438:16)
+    at ChildProcess.<anonymous> (C:\Users\moksh\OneDrive\Documents\Moksh\pokemon-showdown\lib\process-manager.ts:495:47)
+    at ChildProcess.emit (events.js:375:28)
+    at ChildProcess.emit (domain.js:470:12)
+    at finish (internal/child_process.js:895:14)
+    at processTicksAndRejections (internal/process/task_queues.js:77:11)
+
+TypeError: Cannot set property 'trickroom' of undefined
+    at Battle.onBegin (C:\Users\moksh\OneDrive\Documents\Moksh\pokemon-showdown\config\formats.ts:115:40)
+    at Battle.start (C:\Users\moksh\OneDrive\Documents\Moksh\pokemon-showdown\sim\battle.ts:1677:38)
+    at Battle.setPlayer (C:\Users\moksh\OneDrive\Documents\Moksh\pokemon-showdown\sim\battle.ts:2846:75)
+    at RoomBattleStream._writeLine (C:\Users\moksh\OneDrive\Documents\Moksh\pokemon-showdown\sim\battle-stream.ts:111:17)
+    at RoomBattleStream._writeLines (C:\Users\moksh\OneDrive\Documents\Moksh\pokemon-showdown\sim\battle-stream.ts:78:10)
+    at RoomBattleStream._write (C:\Users\moksh\OneDrive\Documents\Moksh\pokemon-showdown\server\room-battle.ts:1322:9)
+    at RoomBattleStream.write (C:\Users\moksh\OneDrive\Documents\Moksh\pokemon-showdown\lib\streams.ts:836:15)
+    at process.<anonymous> (C:\Users\moksh\OneDrive\Documents\Moksh\pokemon-showdown\lib\process-manager.ts:660:17)
+    at process.emit (events.js:375:28)
+    at process.emit (domain.js:470:12)
+
+Additional information:
+  chunk = >player p2 {"name":"Champfernape","avatar":"2","team":"Mr. Mime|MrMimeGalar|ChoiceSpecs|VitalSpirit|Psychic,FreezeDry,FocusBlast,ShadowBall|Timid|,,4,252,,252||,0,,,,|||]Thwackey||ChoiceBand|GrassySurge|WoodHammer,GrassyGlide,KnockOff,Uturn|Adamant|,252,4,,,252|||||]Hattrem||Eviolite|MagicBounce|Psychic,MysticalFire,Rest,SleepTalk|Bold|252,,248,,,8|F|,0,,,,|||]Golbat||Eviolite|Infiltrator|BraveBird,Uturn,Defog,Roost|Jolly|252,,160,,,96|||||]Marshtomp||Eviolite|Torrent|StealthRock,Earthquake,Scald,Toxic|Careful|248,,4,,236,20|||||]Ferroseed||Eviolite|IronBarbs|Spikes,GyroBall,KnockOff,LeechSeed|Sassy|252,,4,,252,||,,,,,0|||","rating":0}
+  inputLog = 
+>start {"formatid":"gen8slowmons","seed":[52084,43870,52638,60672]}
+>player p1 {"name":"TestAltChamp","avatar":"169","team":"Clefable|||CuteCharm|CalmMind||,,,252,,||,0,,,,|||","rating":0}
+>player p2 {"name":"Champfernape","avatar":"2","team":"Mr. Mime|MrMimeGalar|ChoiceSpecs|VitalSpirit|Psychic,FreezeDry,FocusBlast,ShadowBall|Timid|,,4,252,,252||,0,,,,|||]Thwackey||ChoiceBand|GrassySurge|WoodHammer,GrassyGlide,KnockOff,Uturn|Adamant|,252,4,,,252|||||]Hattrem||Eviolite|MagicBounce|Psychic,MysticalFire,Rest,SleepTalk|Bold|252,,248,,,8|F|,0,,,,|||]Golbat||Eviolite|Infiltrator|BraveBird,Uturn,Defog,Roost|Jolly|252,,160,,,96|||||]Marshtomp||Eviolite|Torrent|StealthRock,Earthquake,Scald,Toxic|Careful|248,,4,,236,20|||||]Ferroseed||Eviolite|IronBarbs|Spikes,GyroBall,KnockOff,LeechSeed|Sassy|252,,4,,252,||,,,,,0|||","rating":0}
+  log = 
+|t:|1627985612
+|gametype|singles
+|player|p1|TestAltChamp|169|
+|player|p2|Champfernape|2|
+|teamsize|p1|1
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] Slowmons
+
+
+Error [ERR_IPC_DISCONNECTED]: IPC channel is already disconnected
+    at ChildProcess.target.disconnect (internal/child_process.js:865:26)
+    at QueryProcessWrapper.destroy (C:\Users\moksh\OneDrive\Documents\GitHub\test-showdown\lib\process-manager.ts:184:16)
+    at QueryProcessWrapper.release (C:\Users\moksh\OneDrive\Documents\GitHub\test-showdown\lib\process-manager.ts:170:9)
+    at QueryProcessManager.releaseCrashed (C:\Users\moksh\OneDrive\Documents\GitHub\test-showdown\lib\process-manager.ts:438:16)
+    at ChildProcess.<anonymous> (C:\Users\moksh\OneDrive\Documents\GitHub\test-showdown\lib\process-manager.ts:495:47)
+    at ChildProcess.emit (events.js:375:28)
+    at ChildProcess.emit (domain.js:470:12)
+    at finish (internal/child_process.js:895:14)
+    at processTicksAndRejections (internal/process/task_queues.js:77:11)
+
+Error [ERR_IPC_DISCONNECTED]: IPC channel is already disconnected
+    at ChildProcess.target.disconnect (internal/child_process.js:865:26)
+    at QueryProcessWrapper.destroy (C:\Users\moksh\OneDrive\Documents\GitHub\test-showdown\lib\process-manager.ts:184:16)
+    at QueryProcessWrapper.release (C:\Users\moksh\OneDrive\Documents\GitHub\test-showdown\lib\process-manager.ts:170:9)
+    at QueryProcessManager.releaseCrashed (C:\Users\moksh\OneDrive\Documents\GitHub\test-showdown\lib\process-manager.ts:438:16)
+    at ChildProcess.<anonymous> (C:\Users\moksh\OneDrive\Documents\GitHub\test-showdown\lib\process-manager.ts:495:47)
+    at ChildProcess.emit (events.js:375:28)
+    at ChildProcess.emit (domain.js:470:12)
+    at finish (internal/child_process.js:895:14)
+    at processTicksAndRejections (internal/process/task_queues.js:77:11)
+
+Error [ERR_IPC_DISCONNECTED]: IPC channel is already disconnected
+    at ChildProcess.target.disconnect (internal/child_process.js:865:26)
+    at QueryProcessWrapper.destroy (C:\Users\moksh\OneDrive\Documents\GitHub\test-showdown\lib\process-manager.ts:184:16)
+    at QueryProcessWrapper.release (C:\Users\moksh\OneDrive\Documents\GitHub\test-showdown\lib\process-manager.ts:170:9)
+    at QueryProcessManager.releaseCrashed (C:\Users\moksh\OneDrive\Documents\GitHub\test-showdown\lib\process-manager.ts:438:16)
+    at ChildProcess.<anonymous> (C:\Users\moksh\OneDrive\Documents\GitHub\test-showdown\lib\process-manager.ts:495:47)
+    at ChildProcess.emit (events.js:375:28)
+    at ChildProcess.emit (domain.js:470:12)
+    at finish (internal/child_process.js:895:14)
+    at processTicksAndRejections (internal/process/task_queues.js:77:11)
+
+Error [ERR_IPC_DISCONNECTED]: IPC channel is already disconnected
+    at ChildProcess.target.disconnect (internal/child_process.js:865:26)
+    at QueryProcessWrapper.destroy (C:\Users\moksh\OneDrive\Documents\GitHub\test-showdown\lib\process-manager.ts:184:16)
+    at QueryProcessWrapper.release (C:\Users\moksh\OneDrive\Documents\GitHub\test-showdown\lib\process-manager.ts:170:9)
+    at QueryProcessManager.releaseCrashed (C:\Users\moksh\OneDrive\Documents\GitHub\test-showdown\lib\process-manager.ts:438:16)
+    at ChildProcess.<anonymous> (C:\Users\moksh\OneDrive\Documents\GitHub\test-showdown\lib\process-manager.ts:495:47)
+    at ChildProcess.emit (events.js:375:28)
+    at ChildProcess.emit (domain.js:470:12)
+    at finish (internal/child_process.js:895:14)
+    at processTicksAndRejections (internal/process/task_queues.js:77:11)
+
+Error [ERR_IPC_DISCONNECTED]: IPC channel is already disconnected
+    at ChildProcess.target.disconnect (internal/child_process.js:865:26)
+    at QueryProcessWrapper.destroy (C:\Users\moksh\OneDrive\Documents\GitHub\test-showdown\lib\process-manager.ts:184:16)
+    at QueryProcessWrapper.release (C:\Users\moksh\OneDrive\Documents\GitHub\test-showdown\lib\process-manager.ts:170:9)
+    at QueryProcessManager.releaseCrashed (C:\Users\moksh\OneDrive\Documents\GitHub\test-showdown\lib\process-manager.ts:438:16)
+    at ChildProcess.<anonymous> (C:\Users\moksh\OneDrive\Documents\GitHub\test-showdown\lib\process-manager.ts:495:47)
+    at ChildProcess.emit (events.js:375:28)
+    at ChildProcess.emit (domain.js:470:12)
+    at finish (internal/child_process.js:895:14)
+    at processTicksAndRejections (internal/process/task_queues.js:77:11)
+
+Error [ERR_IPC_DISCONNECTED]: IPC channel is already disconnected
+    at ChildProcess.target.disconnect (internal/child_process.js:865:26)
+    at QueryProcessWrapper.destroy (C:\Users\moksh\OneDrive\Documents\GitHub\test-showdown\lib\process-manager.ts:184:16)
+    at QueryProcessWrapper.release (C:\Users\moksh\OneDrive\Documents\GitHub\test-showdown\lib\process-manager.ts:170:9)
+    at QueryProcessManager.releaseCrashed (C:\Users\moksh\OneDrive\Documents\GitHub\test-showdown\lib\process-manager.ts:438:16)
+    at ChildProcess.<anonymous> (C:\Users\moksh\OneDrive\Documents\GitHub\test-showdown\lib\process-manager.ts:495:47)
+    at ChildProcess.emit (events.js:375:28)
+    at ChildProcess.emit (domain.js:470:12)
+    at finish (internal/child_process.js:895:14)
+    at processTicksAndRejections (internal/process/task_queues.js:77:11)
+
+TypeError: Cannot read property 'then' of null
+    at RawProcessManager.releaseCrashed (C:\Users\moksh\OneDrive\Documents\GitHub\test-showdown\lib\process-manager.ts:438:23)
+    at Worker.<anonymous> (C:\Users\moksh\OneDrive\Documents\GitHub\test-showdown\lib\process-manager.ts:495:47)
+    at Worker.emit (events.js:375:28)
+    at Worker.emit (domain.js:470:12)
+    at ChildProcess.<anonymous> (internal/cluster/master.js:220:12)
+    at Object.onceWrapper (events.js:481:28)
+    at ChildProcess.emit (events.js:375:28)
+    at ChildProcess.emit (domain.js:470:12)
+    at finish (internal/child_process.js:895:14)
+    at processTicksAndRejections (internal/process/task_queues.js:77:11)
+
+Error [ERR_IPC_DISCONNECTED]: IPC channel is already disconnected
+    at ChildProcess.target.disconnect (internal/child_process.js:865:26)
+    at QueryProcessWrapper.destroy (C:\Users\moksh\OneDrive\Documents\GitHub\test-showdown\lib\process-manager.ts:184:16)
+    at QueryProcessWrapper.release (C:\Users\moksh\OneDrive\Documents\GitHub\test-showdown\lib\process-manager.ts:170:9)
+    at QueryProcessManager.releaseCrashed (C:\Users\moksh\OneDrive\Documents\GitHub\test-showdown\lib\process-manager.ts:438:16)
+    at ChildProcess.<anonymous> (C:\Users\moksh\OneDrive\Documents\GitHub\test-showdown\lib\process-manager.ts:495:47)
+    at ChildProcess.emit (events.js:375:28)
+    at ChildProcess.emit (domain.js:470:12)
+    at finish (internal/child_process.js:895:14)
+    at processTicksAndRejections (internal/process/task_queues.js:77:11)
+
+Error [ERR_IPC_DISCONNECTED]: IPC channel is already disconnected
+    at ChildProcess.target.disconnect (internal/child_process.js:865:26)
+    at QueryProcessWrapper.destroy (C:\Users\moksh\OneDrive\Documents\GitHub\test-showdown\lib\process-manager.ts:184:16)
+    at QueryProcessWrapper.release (C:\Users\moksh\OneDrive\Documents\GitHub\test-showdown\lib\process-manager.ts:170:9)
+    at QueryProcessManager.releaseCrashed (C:\Users\moksh\OneDrive\Documents\GitHub\test-showdown\lib\process-manager.ts:438:16)
+    at ChildProcess.<anonymous> (C:\Users\moksh\OneDrive\Documents\GitHub\test-showdown\lib\process-manager.ts:495:47)
+    at ChildProcess.emit (events.js:375:28)
+    at ChildProcess.emit (domain.js:470:12)
+    at finish (internal/child_process.js:895:14)
+    at processTicksAndRejections (internal/process/task_queues.js:77:11)
+
+Error [ERR_IPC_DISCONNECTED]: IPC channel is already disconnected
+    at ChildProcess.target.disconnect (internal/child_process.js:865:26)
+    at StreamProcessWrapper.destroy (C:\Users\moksh\OneDrive\Documents\GitHub\test-showdown\lib\process-manager.ts:301:16)
+    at StreamProcessWrapper.release (C:\Users\moksh\OneDrive\Documents\GitHub\test-showdown\lib\process-manager.ts:287:14)
+    at StreamProcessManager.releaseCrashed (C:\Users\moksh\OneDrive\Documents\GitHub\test-showdown\lib\process-manager.ts:438:16)
+    at ChildProcess.<anonymous> (C:\Users\moksh\OneDrive\Documents\GitHub\test-showdown\lib\process-manager.ts:495:47)
+    at ChildProcess.emit (events.js:375:28)
+    at ChildProcess.emit (domain.js:470:12)
+    at finish (internal/child_process.js:895:14)
+    at processTicksAndRejections (internal/process/task_queues.js:77:11)
+
+Error [ERR_IPC_DISCONNECTED]: IPC channel is already disconnected
+    at ChildProcess.target.disconnect (internal/child_process.js:865:26)
+    at QueryProcessWrapper.destroy (C:\Users\moksh\OneDrive\Documents\GitHub\test-showdown\lib\process-manager.ts:184:16)
+    at QueryProcessWrapper.release (C:\Users\moksh\OneDrive\Documents\GitHub\test-showdown\lib\process-manager.ts:170:9)
+    at QueryProcessManager.releaseCrashed (C:\Users\moksh\OneDrive\Documents\GitHub\test-showdown\lib\process-manager.ts:438:16)
+    at ChildProcess.<anonymous> (C:\Users\moksh\OneDrive\Documents\GitHub\test-showdown\lib\process-manager.ts:495:47)
+    at ChildProcess.emit (events.js:375:28)
+    at ChildProcess.emit (domain.js:470:12)
+    at finish (internal/child_process.js:895:14)
+    at processTicksAndRejections (internal/process/task_queues.js:77:11)
